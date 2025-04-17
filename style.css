@@ -1,7 +1,52 @@
-#child1{
-    background-color: aqua;
-}
-
-#child2{
-    background-color: aquamarine;
-}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header-section {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .search-bar {
+    text-align: center;
+  }
+  
+  .search-bar input {
+    width: 60%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #007bff;
+  }
+  
+  .user-icon {
+    display: flex;
+    justify-content: flex-end;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .user-icon:hover {
+    color: #007bff;
+  }
+  .logo:hover{
+    color: gray;
+  }
+  
